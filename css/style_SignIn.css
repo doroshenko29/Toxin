@@ -1,0 +1,89 @@
+section {
+  position: relative;
+  height: 772px;
+  background: url("../img/bg.png") no-repeat 0 -70px; }
+  section form {
+    position: absolute;
+    left: 530px;
+    top: 173px;
+    width: 380px;
+    height: 358px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; }
+    section form h2 {
+      margin: 0;
+      margin-top: 40px;
+      font-family: 'Quicksand-Bold',sans-serif;
+      letter-spacing: 0.9px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: #1F2041; }
+    section form #enterEmail, section form #enterPassword {
+      padding: 10px 0 10px 15px;
+      letter-spacing: 1.4px;
+      margin-top: 20px;
+      width: 320px;
+      height: 44px;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: rgba(31, 32, 65, 0.25); }
+    section form #enterPassword {
+      margin-top: 10px; }
+    section form .btnEnter {
+      position: relative;
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+      border-radius: 22px;
+      border-color: #BC9CFF;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      padding: 16px 136px 16px 138px;
+      top: 30px;
+      letter-spacing: 0.6px; }
+    section form .downBox {
+      width: 100%;
+      margin-top: 70px; }
+      section form .downBox .btnCreate {
+        z-index: 0;
+        position: relative;
+        display: inline-block;
+        float: right;
+        color: #BC9CFF;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        text-transform: uppercase;
+        border-radius: 22px;
+        padding: 15px 20px; }
+      section form .downBox .btnCreate::before {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        display: inline-block;
+        top: 2px;
+        right: 2px;
+        bottom: 2px;
+        left: 2px;
+        border-radius: 22px;
+        background: white; }
+    section form p {
+      display: inline-block;
+      letter-spacing: 0.8px;
+      float: left;
+      font-size: 14px;
+      line-height: 18px; }
+    section form .box {
+      width: 320px;
+      margin: 0 auto; }
+
+/*# sourceMappingURL=style_SignIn.css.map */

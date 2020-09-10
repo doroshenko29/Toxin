@@ -1,0 +1,190 @@
+section {
+  position: relative;
+  height: 830px;
+  background: url("../img/bg-2.png") no-repeat 0 -70px; }
+  section form {
+    position: absolute;
+    left: 140px;
+    top: 70px;
+    width: 380px;
+    height: 374px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; }
+    section form h2 {
+      margin: 0;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-family: 'Quicksand-Bold',sans-serif;
+      letter-spacing: 1.2px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: #1F2041; }
+    section form h3 {
+      margin-top: 22px;
+      margin-bottom: -5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.7px;
+      color: #1F2041; }
+    section form #arival, section form #departure, section form #guests {
+      position: relative;
+      padding: 10px 0 10px 15px;
+      letter-spacing: 1.4px;
+      margin-top: 10px;
+      width: 150px;
+      height: 44px;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 4px;
+      color: rgba(31, 32, 65, 0.25); }
+    section form #guests {
+      width: 320px; }
+    section form #enterPassword {
+      margin-top: 10px; }
+    section form .btnEnter {
+      position: relative;
+      background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+      border-radius: 22px;
+      border-color: #BC9CFF;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      padding: 16px 94px 16px 94px;
+      top: 41px;
+      letter-spacing: 0.6px; }
+    section form .data-item {
+      float: left; }
+    section form .data-item:first-of-type {
+      margin-right: 20px; }
+    section form .box {
+      width: 320px;
+      margin: 0 auto; }
+    section form .dropList {
+      position: relative; }
+    section form .dropList::after {
+      z-index: 1;
+      content: "";
+      position: absolute;
+      left: 120px;
+      top: 7px;
+      display: inline-block;
+      width: 10px;
+      height: 2px;
+      transform: rotate(45deg);
+      background: rgba(31, 32, 65, 0.5); }
+    section form .dropList::before {
+      z-index: 1;
+      content: "";
+      position: absolute;
+      left: 126px;
+      top: 7px;
+      display: inline-block;
+      width: 10px;
+      height: 2px;
+      transform: rotate(-45deg);
+      background: rgba(31, 32, 65, 0.5); }
+    section form .big-list {
+      position: relative; }
+    section form .big-list::after {
+      z-index: 1;
+      content: "";
+      position: absolute;
+      left: 290px;
+      top: 7px;
+      display: inline-block;
+      width: 10px;
+      height: 2px;
+      transform: rotate(45deg);
+      background: rgba(31, 32, 65, 0.5); }
+    section form .big-list::before {
+      z-index: 1;
+      content: "";
+      position: absolute;
+      left: 296px;
+      top: 7px;
+      display: inline-block;
+      width: 10px;
+      height: 2px;
+      transform: rotate(-45deg);
+      background: rgba(31, 32, 65, 0.5); }
+    section form .popUp {
+      position: absolute;
+      display: block;
+      z-index: 1;
+      width: 318px;
+      background: white;
+      border: 1px solid rgba(31, 32, 65, 0.25); }
+      section form .popUp div {
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 15px;
+        letter-spacing: 0.7px;
+        color: #1F2041; }
+        section form .popUp div div:first-child {
+          padding: 10px 0px 5px 15px;
+          float: left; }
+        section form .popUp div div:last-child {
+          padding: 5px 10px 5px 0px;
+          font-size: 14px;
+          float: right; }
+          section form .popUp div div:last-child span:nth-child(2) {
+            margin: 0 10px; }
+          section form .popUp div div:last-child span:not(:nth-child(2)) {
+            position: relative;
+            display: inline-block;
+            border: 1px solid grey;
+            border-radius: 100%;
+            width: 1.7em;
+            height: 1.7em;
+            vertical-align: middle;
+            text-align: center; }
+          section form .popUp div div:last-child span:nth-child(1):after, section form .popUp div div:last-child span:nth-child(3):after {
+            z-index: 1;
+            content: "";
+            position: absolute;
+            left: 8.5px;
+            top: 11px;
+            display: inline-block;
+            width: 7px;
+            height: 1.5px;
+            transform: rotate(0deg);
+            background: grey; }
+          section form .popUp div div:last-child span:nth-child(3):before {
+            z-index: 1;
+            content: "";
+            position: absolute;
+            left: 8.5px;
+            top: 11px;
+            display: inline-block;
+            width: 7px;
+            height: 1.5px;
+            transform: rotate(90deg);
+            background: grey; }
+    section form .hidden {
+      display: none; }
+  section .landingText {
+    max-width: 250px;
+    text-align: right;
+    font-family: 'Quicksand-Bold',sans-serif;
+    letter-spacing: 1.2px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+    position: absolute;
+    bottom: 10px;
+    right: 100px; }
+
+/*# sourceMappingURL=style_landing.css.map */

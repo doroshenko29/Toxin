@@ -1,0 +1,66 @@
+section
+	div.container
+		form
+			div.box
+				h2 Найдём номера под ваши пожелания	
+				div.data-list.clearfix
+					dib.data-item.first
+						label(for="arival")
+							h3 Прибытие
+						span.dropList
+						input(
+						type="text"
+						name="arival"
+						id="arival"
+						placeholder="ДД.ММ.ГГГГ"
+						)
+					dib.data-item
+						label(for="departure")
+							h3 Выезд
+						span.dropList
+						input(
+						type="text"
+						name="departure"
+						id="departure"
+						placeholder="ДД.ММ.ГГГГ"
+						)
+				label(for="guests")
+					h3 Гости
+				span.big-list
+				input(
+				type="text"
+				name="guests"
+				id="guests"
+				value="Сколько гостей"
+				)
+				div.popUp.hidden
+					div.clearfix
+						div
+							span взрослые
+						div
+							span.minus 
+							span.block 0
+							span.plus 
+					div.clearfix
+						div
+							span дети
+						div
+							span.minus
+							span.block 0
+							span.plus 
+					div.clearfix
+						div
+							span младенцы
+						div
+							span.minus 
+							span.block 0
+							span.plus 
+					div.clearfix
+						div
+							a.clear очистить
+						div
+							a.accept применить
+				a.btnEnter(href="#") Подобрать номер
+					span.arrow
+		div.landingText
+			p Лучшие норера для вашей работы, отдыха и просто вдохновения

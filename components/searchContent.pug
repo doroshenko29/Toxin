@@ -1,0 +1,156 @@
+section
+	div.container
+		div.clearfix
+			div.leftpart
+				h3 даты пребывания в отеле
+				input(
+				type="text"
+				name="live"
+				id="live"
+				value="19 - 23"
+				)
+				h3 гости
+				input(
+				type="text"
+				name="guests"
+				id="guests"
+				value="Сколько гостей"
+				)
+				div.clearfix.range-price
+					div.leftpart
+						h3 диапазон цены 
+					div.rightpart
+						span.range 5000Р-10000Р
+				span.range Стоимость за сутки пребывания в номере
+				h3 Дополнительные опции
+				input(
+				type="checkbox"
+				name="option"
+				id="Smoke"
+				value="Smoke"
+				)
+				label(for="Smoke")
+					span Можно курить
+				br
+				input(
+				type="checkbox"
+				name="option"
+				value="pet"
+				id="pet"
+				)
+				label(for="pet")
+					span Можно с питомцами
+				br
+				input(
+				type="checkbox"
+				name="option"
+				value="guest"
+				id="guest"
+				)
+				label(for="guest")
+					span Можно пригласить гостей(до 10 человек)
+				h3.dostupnost доступность
+				br
+				input(
+				type="checkbox"
+				name="dostup"
+				value="koridor"
+				id="koridor"
+				)
+				label.lbl(for="koridor")
+					span Широкий коридор 
+					span.comment Ширина коридоров в номере не менее 91 см.
+				br
+				input(
+				type="checkbox"
+				name="dostup"
+				value="invalid"
+				id="invalid"
+				)
+				label.lbl(for="invalid")
+					span Помощник для инвалидов
+					br
+					span.comment На 1 этаже вас встретит специалист и проводит до номера.
+				h3.comfortnost удобства номера
+				br
+				input(
+				type="text"
+				name="comfort"
+				id="comfort"
+				value="2 спальни, 2 кровати..."
+				)
+				h3 дополнительные удобства
+				div.comfort-block
+					input(
+					type="checkbox"
+					name="comfort"
+					value="breackfast"
+					id="breackfast"
+					)
+					label(for="breackfast")
+						span Завтрак
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="desk"
+					id="desk"
+					)
+					label(for="desk")
+						span Письменный стол
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="chair"
+					id="chair"
+					)
+					label(for="chair")
+						span Стул для кормления
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="cot"
+					id="cot"
+					)
+					label(for="cot")
+						span Кроватка
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="tv"
+					id="tv"
+					)
+					label(for="tv")
+						span Телевизор
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="champoo"
+					id="champoo"
+					)
+					label(for="champoo")
+						span Шампунь
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="conditioner"
+					id="conditioner"
+					)
+					label(for="conditioner")
+						span Кондиционер
+					br
+					input(
+					type="checkbox"
+					name="comfort"
+					value="parking"
+					id="parking"
+					)
+					label(for="parking")
+						span Парковка
+			div.rightpart
+				h3 Номера, которые мы для вас подобрали

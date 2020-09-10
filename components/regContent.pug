@@ -1,0 +1,73 @@
+section
+	div.container
+		form
+			div.box
+				h2 Регистрация аккаунта
+				input(
+				type="text"
+				name="name"
+				id="name"
+				placeholder="Имя"
+				)
+				input(
+				type="text"
+				name="second_name"
+				id="second_name"
+				placeholder="Фамилия"
+				)
+				div.radioButtons
+						span.radioButton
+							input(	
+							type="radio"
+							id="men"
+							name="sex"
+							value="men"
+							checked
+							)
+							label.lbl-men(for="men")
+							|Мужчина
+					
+						span.radioButton
+							input(	
+							type="radio"
+							id="women"
+							name="sex"
+							value="women"
+							)
+							label.lbl-women.btnWomen(for="women") 
+							|Женщина
+				h3 Дата рождения
+				input(
+				type="text"
+				name="date"
+				id="date"
+				placeholder="ДД.ММ.ГГГГ"
+				)
+				h3 Данные для входа в сервис
+				input(
+				type="text"
+				name="enterEmail"
+				id="enterEmail"
+				placeholder="Email"
+				)
+				input(
+				type="text"
+				name="enterPassword"
+				id="enterPassword"
+				placeholder="Пароль"
+				)
+				div.switch-container.clearfix
+					label.switch
+						input(
+		  				type="checkbox"
+		  				name="switcher"
+						
+						)
+						span.slider.round
+					p Получать спецпредложения
+				
+				a.btnEnter(href="#") Перейти к оплате
+					span.arrow
+				div.clearfix.downBox
+					p Уже есть аккаунт на Toxin
+					a.btnCreate(href="index.html") Войти

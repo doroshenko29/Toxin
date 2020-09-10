@@ -1,0 +1,142 @@
+
+.container
+{
+	input[type="checkbox"]{
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+
+	}
+
+	label{
+
+				content:"";
+				margin-right:12px;
+				vertical-align:middle;
+				position:relative;
+				display:inline-block;
+				width:18px;
+				height:18px;
+				background:none;
+				box-sizing: border-box;
+				border: 1px solid rgba(31, 32, 65, 0.25);
+				border-radius:4px;
+				
+				span{
+				display:inline-block;
+				margin-left:25px;
+				width:200px;
+				}
+
+	}
+
+
+	.lbl{
+	margin-bottom:50px;
+
+	}
+
+
+	input[type="checkbox"]:checked + label::before{
+				content:"";
+				position:absolute;
+				width: 2px;
+				height: 8px;
+				top:4px;
+				left:9px;
+				background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);	
+				transform: rotate(45deg);
+				}
+	input[type="checkbox"]:checked + label::after{
+				content:"";
+				position:absolute;
+				width: 2px;
+				height: 4px;
+				top:6px;
+				left:5px;
+				
+
+				background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+				
+				transform: rotate(-45deg);
+
+				}
+
+
+	color: rgba(31, 32, 65, 0.5);
+		h3{
+			margin:0;
+		}
+		.dostupnost, .comfortnost{
+		margin-top:30px;
+		}
+		.comment{
+		display:inline-block;
+		width:200px;
+		font-size:12px;
+		}
+		.invalid{
+		margin-top:15px;
+		}
+		span{
+		margin:0;
+		display:inline-block;
+		}
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	content:"";
+	width:1150px;
+	margin:30px auto 0;
+	
+	.leftpart{
+		display:block;
+		margin-top:5px;
+		float:left;
+
+	}
+	.range-price{
+	position:relative;
+	width:266px;
+	}
+	.range{
+	color: rgba(31, 32, 65, 0.5);
+	font-style: normal;
+	font-weight: normal;
+	line-height: 14px;
+	}
+
+
+	#live,#guests,#comfort{
+			position:relative;
+			padding:10px 0 10px 15px;
+			letter-spacing:1.4px;
+			margin-bottom:20.44px;
+			width: 266px;
+			height: 44px;
+			border: 1px solid rgba(31, 32, 65, 0.25);
+			box-sizing: border-box;
+			border-radius: 4px;
+			color: rgba(31, 32, 65, 0.75);
+	}
+
+					
+	.rightpart{
+		display:block;
+		float:right;
+	}
+
+			h3{
+			margin-bottom:5px;
+			text-transform:uppercase;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 15px;
+			letter-spacing:0.7px;
+			color: #1F2041;
+			}
+
+}

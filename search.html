@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Toxin Поиск номера</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_search.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/calendar.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container clearfix"><a class="logo" href="landing.html"> <img src="img/Logo.jpg"></a>
+        <ul class="list">
+          <li><a href="#">О нас</a></li>
+          <li><a class="dropList" href="#">Услуги</a></li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a class="dropList" href="#">Соглашения</a></li>
+        </ul>
+        <div class="buttons"><a class="buttonEnter" href="index.html">Войти</a>
+          <div class="buttonReg"> <a class="buttonRegestration" href="innerReg.html">Зарегистрироваться </a></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="clearfix">
+          <div class="leftpart">
+            <h3>даты пребывания в отеле</h3>
+            <input type="text" name="live" id="live" value="19 - 23">
+            <h3>гости</h3>
+            <input type="text" name="guests" id="guests" value="Сколько гостей">
+            <div class="clearfix range-price">
+              <div class="leftpart">
+                <h3>диапазон цены </h3>
+              </div>
+              <div class="rightpart"><span class="range">5000Р-10000Р</span></div>
+            </div><span class="range">Стоимость за сутки пребывания в номере</span>
+            <h3>Дополнительные опции</h3>
+            <input type="checkbox" name="option" id="Smoke" value="Smoke">
+            <label for="Smoke"><span>Можно курить</span></label><br>
+            <input type="checkbox" name="option" value="pet" id="pet">
+            <label for="pet"><span>Можно с питомцами</span></label><br>
+            <input type="checkbox" name="option" value="guest" id="guest">
+            <label for="guest"><span>Можно пригласить гостей(до 10 человек)</span></label>
+            <h3 class="dostupnost">доступность</h3><br>
+            <input type="checkbox" name="dostup" value="koridor" id="koridor">
+            <label class="lbl" for="koridor"><span>Широкий коридор </span><span class="comment">Ширина коридоров в номере не менее 91 см.</span></label><br>
+            <input type="checkbox" name="dostup" value="invalid" id="invalid">
+            <label class="lbl" for="invalid"><span>Помощник для инвалидов</span><br><span class="comment">На 1 этаже вас встретит специалист и проводит до номера.</span></label>
+            <h3 class="comfortnost">удобства номера</h3><br>
+            <input type="text" name="comfort" id="comfort" value="2 спальни, 2 кровати...">
+            <h3>дополнительные удобства</h3>
+            <div class="comfort-block">
+              <input type="checkbox" name="comfort" value="breackfast" id="breackfast">
+              <label for="breackfast"><span>Завтрак</span></label><br>
+              <input type="checkbox" name="comfort" value="desk" id="desk">
+              <label for="desk"><span>Письменный стол</span></label><br>
+              <input type="checkbox" name="comfort" value="chair" id="chair">
+              <label for="chair"><span>Стул для кормления</span></label><br>
+              <input type="checkbox" name="comfort" value="cot" id="cot">
+              <label for="cot"><span>Кроватка</span></label><br>
+              <input type="checkbox" name="comfort" value="tv" id="tv">
+              <label for="tv"><span>Телевизор</span></label><br>
+              <input type="checkbox" name="comfort" value="champoo" id="champoo">
+              <label for="champoo"><span>Шампунь</span></label><br>
+              <input type="checkbox" name="comfort" value="conditioner" id="conditioner">
+              <label for="conditioner"><span>Кондиционер</span></label><br>
+              <input type="checkbox" name="comfort" value="parking" id="parking">
+              <label for="parking"><span>Парковка</span></label>
+            </div>
+          </div>
+          <div class="rightpart">
+            <h3>Номера, которые мы для вас подобрали</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="toxin"><a class="logo" href="landing.html"> <img src="img/Logo.jpg"></a>
+          <p>Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отдельные взгляды»</p>
+        </div>
+        <div class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list-item"><a>Навигация</a></li>
+            <li class="navigation-list-item"><a>О нас</a></li>
+            <li class="navigation-list-item"><a>Новости</a></li>
+            <li class="navigation-list-item"><a>Служба поддержки</a></li>
+            <li class="navigation-list-item"><a>Услуги</a></li>
+          </ul>
+        </div>
+        <div class="aboutUs">
+          <ul class="about-list">
+            <li class="about-list-item"><a>О нас</a></li>
+            <li class="about-list-item"><a>О сервисе</a></li>
+            <li class="about-list-item"><a>Наша команда</a></li>
+            <li class="about-list-item"><a>Вакансии</a></li>
+            <li class="about-list-item"><a>Инвесторы</a></li>
+          </ul>
+        </div>
+        <div class="support">
+          <ul class="support-list">
+            <li class="support-list-item"><a>Служба поддержки</a></li>
+            <li class="support-list-item"><a>Соглашения</a></li>
+            <li class="support-list-item"><a>Сообщества</a></li>
+            <li class="support-list-item"><a>Связь с нами</a></li>
+          </ul>
+        </div>
+        <div class="follow">
+          <ul class="follow-list">
+            <li class="follow-list-item"><a>Подписка</a></li>
+            <li class="follow-list-item"><a>Получайте специальные предложения и новости сервиса</a></li>
+            <li class="follow-list-item">
+              <input type="text" name="email" id="email" placeholder="Email"><span class="arrow"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="textblock">
+          <p>Copyright © 2018 Toxin отель. Все права зачищены.</p>
+        </div>
+        <div class="social">
+          <div class="social-item social-tw"></div>
+          <div class="social-item social-fb"></div>
+          <div class="social-item social-in"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

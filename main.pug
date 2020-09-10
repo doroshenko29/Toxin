@@ -1,0 +1,14 @@
+extends components/head.pug
+block variables
+	- var title = 'Toxin Вход'
+block scripts
+	link(rel='stylesheet', href='css/style_SignIn.css')
+block content
+	//- Include header
+	include ./components/header.pug
+	//- Include signInContent
+	include ./components/signInContent.pug
+	//- Include footer
+	include ./components/footer.pug
+	//- Include footer-copyright file
+	include ./components/footer-copyright.pug

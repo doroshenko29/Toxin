@@ -1,0 +1,14 @@
+extends components/head.pug
+block variables
+	- var title = 'Toxin Регистрация'
+block scripts
+	link(rel='stylesheet', href='css/style_SignUp.css')
+block content
+	//- Include header
+	include ./components/header.pug
+	//- Include regContent
+	include ./components/regContent.pug
+	//- Include footer
+	include ./components/footer.pug
+	//- Include footer-copyright file
+	include ./components/footer-copyright.pug

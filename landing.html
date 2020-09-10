@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Toxin Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_landing.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/calendar.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container clearfix"><a class="logo" href="landing.html"> <img src="img/Logo.jpg"></a>
+        <ul class="list">
+          <li><a href="#">О нас</a></li>
+          <li><a class="dropList" href="#">Услуги</a></li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a class="dropList" href="#">Соглашения</a></li>
+        </ul>
+        <div class="buttons"><a class="buttonEnter" href="index.html">Войти</a>
+          <div class="buttonReg"> <a class="buttonRegestration" href="innerReg.html">Зарегистрироваться </a></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <form>
+          <div class="box">
+            <h2>Найдём номера под ваши пожелания	</h2>
+            <div class="data-list clearfix">
+              <dib class="data-item first">
+                <label for="arival">
+                  <h3>Прибытие</h3>
+                </label><span class="dropList"></span>
+                <input type="text" name="arival" id="arival" placeholder="ДД.ММ.ГГГГ">
+              </dib>
+              <dib class="data-item">
+                <label for="departure">
+                  <h3>Выезд</h3>
+                </label><span class="dropList"></span>
+                <input type="text" name="departure" id="departure" placeholder="ДД.ММ.ГГГГ">
+              </dib>
+            </div>
+            <label for="guests">
+              <h3>Гости</h3>
+            </label><span class="big-list"></span>
+            <input type="text" name="guests" id="guests" value="Сколько гостей">
+            <div class="popUp hidden">
+              <div class="clearfix">
+                <div><span>взрослые</span></div>
+                <div><span class="minus"> </span><span class="block">0</span><span class="plus"> </span></div>
+              </div>
+              <div class="clearfix">
+                <div><span>дети</span></div>
+                <div><span class="minus"></span><span class="block">0</span><span class="plus"> </span></div>
+              </div>
+              <div class="clearfix">
+                <div><span>младенцы</span></div>
+                <div><span class="minus"> </span><span class="block">0</span><span class="plus"> </span></div>
+              </div>
+              <div class="clearfix">
+                <div><a class="clear">очистить</a></div>
+                <div><a class="accept">применить</a></div>
+              </div>
+            </div><a class="btnEnter" href="#">Подобрать номер<span class="arrow"></span></a>
+          </div>
+        </form>
+        <div class="landingText">
+          <p>Лучшие норера для вашей работы, отдыха и просто вдохновения</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="toxin"><a class="logo" href="landing.html"> <img src="img/Logo.jpg"></a>
+          <p>Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отдельные взгляды»</p>
+        </div>
+        <div class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list-item"><a>Навигация</a></li>
+            <li class="navigation-list-item"><a>О нас</a></li>
+            <li class="navigation-list-item"><a>Новости</a></li>
+            <li class="navigation-list-item"><a>Служба поддержки</a></li>
+            <li class="navigation-list-item"><a>Услуги</a></li>
+          </ul>
+        </div>
+        <div class="aboutUs">
+          <ul class="about-list">
+            <li class="about-list-item"><a>О нас</a></li>
+            <li class="about-list-item"><a>О сервисе</a></li>
+            <li class="about-list-item"><a>Наша команда</a></li>
+            <li class="about-list-item"><a>Вакансии</a></li>
+            <li class="about-list-item"><a>Инвесторы</a></li>
+          </ul>
+        </div>
+        <div class="support">
+          <ul class="support-list">
+            <li class="support-list-item"><a>Служба поддержки</a></li>
+            <li class="support-list-item"><a>Соглашения</a></li>
+            <li class="support-list-item"><a>Сообщества</a></li>
+            <li class="support-list-item"><a>Связь с нами</a></li>
+          </ul>
+        </div>
+        <div class="follow">
+          <ul class="follow-list">
+            <li class="follow-list-item"><a>Подписка</a></li>
+            <li class="follow-list-item"><a>Получайте специальные предложения и новости сервиса</a></li>
+            <li class="follow-list-item">
+              <input type="text" name="email" id="email" placeholder="Email"><span class="arrow"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="textblock">
+          <p>Copyright © 2018 Toxin отель. Все права зачищены.</p>
+        </div>
+        <div class="social">
+          <div class="social-item social-tw"></div>
+          <div class="social-item social-fb"></div>
+          <div class="social-item social-in"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/popup.js"></script>
+  </body>
+</html>
